@@ -300,12 +300,6 @@ body {
   border-radius: 50%;
   padding: 0.2rem;
 }
-/* .decrease:hover {
-  color: var(--Red);
-  border: 1px solid var(--Rose-100);
-  padding: 0.2rem;
-  background-color: var(--Rose-100);
-} */
 
 .iconIncrementImg {
   display: flex;
@@ -319,12 +313,6 @@ body {
   border-radius: 50%;
   padding: 0.2rem;
 }
-/* .iconIncrementImg:hover {
-  color: var(--Red);
-  border: 1px solid var(--Rose-100);
-  background-color: #fff;
-  /* z-index: ; */
-/* }  */
 
 /* Hover effect for Increment Icon */
 .iconIncrement:hover .iconIncrementImg {
@@ -776,6 +764,10 @@ button.new-order-btn:hover {
     margin-top: 5rem;
     margin-bottom: 2rem;
   }
+
+  /* .addToCartButton.active {
+    
+  } */
 }
 
 @media (width <= 399px) {
@@ -832,3 +824,11 @@ button.new-order-btn:hover {
     }
   }
 }
+
+
+@media (width <= 321px) {
+  .itemContainer {
+    padding-right: 1rem;
+  }
+}
+
