@@ -415,7 +415,7 @@ const OrderSummary = ({
             {cartItems.map((item) => (
               <li key={item.id}>
                 <div className="order-flex">
-                <img src={item.image.desktop} alt={item.name} />
+                <img src={item.image.thumbnail} alt={item.name} />
                 <div>
                    <p id="item-name">
                     <span>{item.name}</span>
