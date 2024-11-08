@@ -77,7 +77,6 @@ body {
   display: flex;
   flex-direction: column;
   width: 100%;
-  
 }
 
 /* Container of the Item section which contains the Image and Add to cart button */
@@ -263,8 +262,6 @@ body {
 #hide {
   display: none;
 }
-
-
 
 /* Cart Image in the button */
 .addToCartButton img {
@@ -508,12 +505,12 @@ svg {
   max-height: 80%;
   overflow-y: scroll;
   scrollbar-width: 1px;
-  
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
-  
+
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+
   &::-webkit-scrollbar {
-    display: none;  /* Chrome, Safari and Opera */
+    display: none; /* Chrome, Safari and Opera */
   }
 }
 
@@ -539,12 +536,10 @@ svg {
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 2rem;
-
   align-items: center;
   margin-bottom: 0.8rem;
   border-bottom: 1px solid var(--Rose-50);
   padding-bottom: 0.5rem;
-  
 }
 
 .order-flex {
@@ -606,14 +601,13 @@ button.new-order-btn:hover {
   }
 }
 
-
 .flex {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 98%;
   margin-left: 0.5rem;
-} 
+}
 
 #item-name {
   color: var(--Rose-900);
@@ -621,6 +615,7 @@ button.new-order-btn:hover {
   padding: 0;
   margin: 0;
 }
+
 #itemQuantity {
   color: var(--Red);
   font-family: var(--font-family-SemiBold);
@@ -631,12 +626,11 @@ button.new-order-btn:hover {
   gap: 0.5rem;
   margin-top: 0.2rem;
 }
+
 .span-flex p {
   display: flex;
   padding: 0;
   margin: 0;
-  
-  /* gap: 0.5rem; */
 }
 
 .cart-price-flex {
@@ -802,8 +796,6 @@ button.new-order-btn:hover {
     align-items: center;
     padding: 0.5rem 2rem;
     border-radius: 25px;
-    
-
   }
   .buttonDiv {
     position: absolute;
@@ -840,5 +832,3 @@ button.new-order-btn:hover {
     }
   }
 }
-
-
