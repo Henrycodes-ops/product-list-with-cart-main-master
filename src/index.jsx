@@ -325,9 +325,9 @@ const Cart = ({
         <>
           {cartItems.map((item) => (
             <CartItem
-              key={item.name}
+              key={item.id}
               item={item}
-              onRemove={() => handleRemoveFromCart(item.name)}
+              onRemove={() => handleRemoveFromCart(item.id)}
             />
           ))}
           <OrderSummary
